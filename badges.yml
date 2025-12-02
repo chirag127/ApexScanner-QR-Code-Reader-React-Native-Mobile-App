@@ -1,0 +1,22 @@
+# Badges Configuration
+# Managed by Apex Technical Authority
+
+badges:
+  - name: "Build Status"
+    image: "https://img.shields.io/github/actions/workflow/user/chirag127/CodeLens-Pro-QR-Scanner-React-Native-Mobile-App/ci.yml?style=flat-square&logo=github"
+    url: "https://github.com/chirag127/CodeLens-Pro-QR-Scanner-React-Native-Mobile-App/actions"
+  - name: "Code Coverage"
+    image: "https://img.shields.io/codecov/c/github/chirag127/CodeLens-Pro-QR-Scanner-React-Native-Mobile-App?style=flat-square&logo=codecov"
+    url: "https://codecov.io/github/chirag127/CodeLens-Pro-QR-Scanner-React-Native-Mobile-App"
+  - name: "Tech Stack (React Native)"
+    image: "https://img.shields.io/badge/tech-stack-reactnative%20%2B%20typescript-blue?style=flat-square&logo=react"
+    url: "https://reactnative.dev/"
+  - name: "Lint/Format (Biome)"
+    image: "https://img.shields.io/badge/lint%2Fformat-biome-green?style=flat-square&logo=biome"
+    url: "https://biomejs.dev/"
+  - name: "License (CC BY-NC 4.0)"
+    image: "https://img.shields.io/github/license/chirag127/CodeLens-Pro-QR-Scanner-React-Native-Mobile-App?style=flat-square&color=red&logo=creativecommons"
+    url: "https://creativecommons.org/licenses/by-nc/4.0/"
+  - name: "GitHub Stars"
+    image: "https://img.shields.io/github/stars/chirag127/CodeLens-Pro-QR-Scanner-React-Native-Mobile-App?style=flat-square&logo=github"
+    url: "https://github.com/chirag127/CodeLens-Pro-QR-Scanner-React-Native-Mobile-App/stargazers"
