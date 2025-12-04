@@ -1,47 +1,38 @@
-# General Node/NPM
-node_modules
-.pnp
-.pnp.js
-
-# React Native / Metro Bundler
-/android/app/build
-/android/build
-/ios/build
-/ios/.symlinks
-/ios/Pods
-/tmp
-/logs
-.expo
-.expo-shared
-
-# Dependencies
-/build
+# Dependency directories
+node_modules/
 /dist
+/build
 
-# TypeScript
-*.tsbuildinfo
+# Metro Bundler Cache
+.rncache/
 
-# Testing
+# React Native / Expo specific
+.expo/
+.turbo/
 coverage/
-*.log
 
-# macOS
-.DS_Store
+# TypeScript and JavaScript
+*.js.map
+*.ts.map
 
-# Editor Config
+# IDE/Editor specific
 .vscode/
 .idea/
+*.swp
 
-# Local environment variables
-.env
-.env.local
+# Native build artifacts (Android/iOS)
+/android/build
+/android/.gradle
+/android/app/build
+/ios/*.xcworkspace
+/ios/build/
 
-# Expo specific caches
-.expo/web/
+# Logs and OS generated files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+/tmp
 
-# MMKV/Native Storage (if applicable)
-*.db
-
-# ESlint/Biome/Ruff Cache (If applied later, though not explicitly standard here)
-.biome-cache/
-.ruff_cache/
+# MMKV Storage (if not using explicit file-based setup, usually not tracked)
+*.sqlite
