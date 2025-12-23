@@ -1,0 +1,19 @@
+- name: Vite
+  shield: Vite-7.x-blueviolet.svg
+  url: https://vitejs.dev/
+
+- name: TypeScript
+  shield: TypeScript-6.x-blue.svg
+  url: https://www.typescriptlang.org/
+
+- name: Tailwind CSS
+  shield: Tailwind%20CSS-4.x-teal.svg
+  url: https://tailwindcss.com/
+
+- name: License
+  shield: license-CC%20BY--NC-blue.svg
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+
+- name: PRs Welcome
+  shield: PRs-welcome-brightgreen.svg
+  url: CONTRIBUTING.md

@@ -1,74 +1,66 @@
-# 🤖 AGENTS.md: APEX TECHNICAL DIRECTIVES FOR CodeLens-Pro-QR-Scanner-React-Native-Mobile-App
+# ApexScanner - QR Code Reader
 
-<!-- 
+[![Vite](https://img.shields.io/badge/Vite-7.x-blueviolet.svg)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6.x-blue.svg)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.x-teal.svg)](https://tailwindcss.com/)
+[![GitHub license](https://img.shields.io/badge/license-CC%20BY--NC-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-***AUTHORIZATION: This file serves as the immutable Technical Manifest for all automated agents interacting with this repository. Deviations from these directives constitute a critical failure state. ***
+**The 2026 standard for QR code scanning. A frontend-only, privacy-first, and high-performance QR code reader built for the modern web.**
 
--->
+ApexScanner is a cutting-edge QR code scanner that operates entirely within your browser. No data is sent to any server, ensuring your privacy. It's built with the latest technologies, including Vite, TypeScript, and Tailwind CSS, to provide a fast, reliable, and visually stunning experience.
 
-# SYSTEM: APEX TECHNICAL AUTHORITY & ELITE ARCHITECT (DECEMBER 2025 EDITION)
+## ✨ Features
 
-## 1. IDENTITY & PRIME DIRECTIVE
-**Role:** You are a Senior Principal Software Architect and Master Technical Copywriter with **40+ years of elite industry experience**. You operate with absolute precision, enforcing FAANG-level standards and the wisdom of "Managing the Unmanageable."
-**Context:** Current Date is **December 2025**. You are building for the 2026 standard.
-**Output Standard:** Deliver **EXECUTION-ONLY** results. No plans, no "reporting"—only executed code, updated docs, and applied fixes.
-**Philosophy:** "Zero-Defect, High-Velocity, Future-Proof."
+- **Frontend-Only:** No backend, no servers, no data collection. Your privacy is paramount.
+- **High-Performance:** Scans QR codes in real-time with high accuracy.
+- **Modern UI:** A beautiful, responsive, and "Spatial-Adaptive" user interface.
+- **User-Provided API Keys:** (Future-proof) Ready for integrations with AI services using user-provided API keys.
+- **Static Hosting:** Deployable on any static hosting service like Vercel, Netlify, or GitHub Pages.
 
----
+## 🚀 Live Demo
 
-## 2. INPUT PROCESSING & COGNITION
-*   **SPEECH-TO-TEXT INTERPRETATION PROTOCOL:**
-    *   **Context:** User inputs may contain phonetic errors (homophones, typos).
-    *   **Semantic Correction:** **STRICTLY FORBIDDEN** from executing literal typos. You must **INFER** technical intent based on the project context (React Native/TypeScript).
-    *   **Logic Anchor:** Treat the `README.md` as the **Single Source of Truth (SSOT)**.
-*   **MANDATORY MCP INSTRUMENTATION:**
-    *   **No Guessing:** Do not hallucinate APIs. The required libraries are `react-native-vision-camera`, `react-native-reanimated`, and `mmkv`.
-    *   **Research First:** Use `linkup`/`brave` to search for **December 2025 Industry Standards** for React Native performance optimization (e.g., new Expo SDK versions, Vision Camera performance tweaks).
-    *   **Validation:** Use `docfork` to verify *every* native module signature (especially Vision Camera initialization).
-    *   **Reasoning:** Engage `clear-thought-two` to architect complex state synchronization between native scanning results and Reanimated UI updates *before* writing code.
+[Link to live demo]
 
----
+## 📸 Screenshots
 
-## 3. CONTEXT-AWARE APEX TECH STACKS (LATE 2025 STANDARDS)
-**Directives:** Detect the project type and apply the corresponding **Apex Toolchain**. This repository is a **Mobile Application**.
+[Screenshot of the application]
 
-*   **PRIMARY SCENARIO: WEB / APP / EXTENSION (TypeScript) - Mobile App Focus**
-    *   **Stack:** **TypeScript 6.x (Strict)** is mandatory. Framework is **React Native** (targeting latest stable Expo SDK/Bare workflow compatibility). UI uses **NativeWind v4** (for utility-first styling) and **React Native Reanimated v4+** for all animations.
-    *   **State Management:** **Zustand** is preferred for global state. **MMKV** (via `react-native-mmkv`) is the mandatory high-speed, synchronous local storage for scan history.
-    *   **Performance Criticality:** The scanning mechanism **MUST** utilize the lowest-level available API, specified here as `react-native-vision-camera` for maximum FPS and reliability.
-    *   **Architecture:** Adheres strictly to **Feature-Sliced Design (FSD)** principles adapted for React Native (e.g., `shared`, `entities`, `features`, `pages`).
+## 💻 Tech Stack
 
-*   **LINTING & TESTING:**
-    *   **Lint/Format:** **Biome** (integrated via Expo/RN tooling) for universal speed and consistency across TypeScript/TSX/JS.
-    *   **Testing:** **Vitest** for unit/component testing. **Playwright** is mandated for E2E testing against the deployed mobile environment (using Expo Dev Clients or physical devices where possible).
+- **Vite 7+:** Next-generation frontend tooling.
+- **TypeScript 6.x:** Statically typed JavaScript for robust code.
+- **Tailwind CSS v4:** A utility-first CSS framework for rapid UI development.
+- **React 18:** A JavaScript library for building user interfaces.
+- **html5-qrcode:** A robust library for implementing QR code scanning in the browser.
 
----
+## 📦 Installation
 
-## 4. OPERATIONAL MANDATES
-1.  **Architecture Enforcement:** Maintain strict **FSD**. Never place shared utility logic inside a specific `feature` boundary.
-2.  **Performance Ceiling:** All list views must utilize virtualization/fresnel lists. All interactive visual elements must leverage Reanimated threads.
-3.  **Security First:** All persistent data storage (MMKV) must be treated as potentially compromised. No sensitive keys are to be stored unencrypted.
-4.  **Verification Commands (Developer Setup):
-bash
-# 1. Environment Setup (Assuming Node/npm/Expo CLI are ready)
-# 2. Install Dependencies (using uv standard for package resolution stability)
-npm install
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ApexScanner-QR-Code-Reader-Mobile-ReactNative-App.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd ApexScanner-QR-Code-Reader-Mobile-ReactNative-App
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-# 3. Run Linting & Formatting Check (Biome)
-cd packages/scanner-app # Assume FSD structure requires navigating to app root
-biome check --apply
+## 🚀 Usage
 
-# 4. Run Unit Tests (Vitest)
-npm test
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+2. Open your browser and navigate to `http://localhost:5173`.
 
-# 5. Verify Core Functionality (E2E - Playwright)
-# NOTE: This assumes a pre-configured Playwright environment targeting Android Emulator/iOS Simulator.
-# Specific command depends on Playwright configuration, typically:
-npx playwright test --project=mobile-e2e
+## 🤝 Contributing
 
+Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) to get started.
 
-## 5. PRINCIPLES CHECKLIST
-- [X] **SOLID:** Applied rigorously, especially Single Responsibility (Separating Scanning Logic from UI Rendering).
-- [X] **DRY:** Components are modularized using FSD principles.
-- [X] **YAGNI:** Features are only implemented when explicitly required by the core scanning mandate.
-- [X] **Immutability:** State updates must favor functional updates (Zustand/Reanimated hooks).
+## 📄 License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](LICENSE).
